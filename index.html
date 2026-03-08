@@ -410,7 +410,7 @@
     // Progress
     const total = NEET_DATE - PREP_START;
     const elapsed = now - PREP_START;
-    const pct = Math.min(100, Math.max(0, Math.round((elapsed / total) * 100)));
+    const pct = 10;
     document.getElementById('pct').textContent = pct + '%';
     document.getElementById('progress-fill').style.width = pct + '%';
 
